@@ -1,0 +1,88 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1355168291",
+    "Type": "User",
+    "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
+    "Language": "SFX",
+    "Hash": "{08B7186A-2BC4-5D26-A647-2B9798E56FAC}",
+    "ObjectPath": "Init",
+    "ShortName": "Init",
+    "Path": "Init.bnk",
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "3451596814",
+       "Name": "Hall_Medium",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Halls\\Hall_Medium",
+       "GUID": "{50286348-176A-4235-9E4C-CA5F73D87818}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ],
+     "AudioDevices": [
+      {
+       "Id": "2317455096",
+       "Name": "No_Output",
+       "ObjectPath": "\\Audio Devices\\Default Work Unit\\No_Output",
+       "GUID": "{2A5DD34A-5E5A-4D17-B5E2-D2188F75BD41}",
+       "LibName": "No Output",
+       "LibId": "11862023"
+      },
+      {
+       "Id": "3859886410",
+       "Name": "System",
+       "ObjectPath": "\\Audio Devices\\Default Work Unit\\System",
+       "GUID": "{E785AAFE-B37B-41F7-9DFE-CB540ECFAC19}",
+       "LibName": "System",
+       "LibId": "11403271"
+      }
+     ]
+    },
+    "Busses": [
+     {
+      "Id": "3803692087",
+      "Name": "Master Audio Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
+      "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     }
+    ],
+    "AuxBusses": [
+     {
+      "Id": "348963605",
+      "Name": "Reverb",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb_Sphere\\Reverb",
+      "GUID": "{84F5B590-D6EF-4C09-96B7-612851F73791}",
+      "AuxBusRefs": [
+       {
+        "Id": "2060699703",
+        "Name": "Reverb_Sphere",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb_Sphere",
+        "GUID": "{4F5964DF-D97D-4056-9EF6-7B74CE6FCDED}"
+       }
+      ]
+     },
+     {
+      "Id": "2060699703",
+      "Name": "Reverb_Sphere",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb_Sphere",
+      "GUID": "{4F5964DF-D97D-4056-9EF6-7B74CE6FCDED}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "3451596814"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ],
+  "FileHash": "{84CB6F63-8C99-97EC-00DA-8B8879F9F6BF}"
+ }
+}

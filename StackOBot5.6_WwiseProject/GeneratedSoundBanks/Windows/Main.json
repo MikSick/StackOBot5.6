@@ -1,0 +1,102 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3161908922",
+    "Type": "User",
+    "GUID": "{47CF1CD0-D3CB-4594-A01D-E1273BC12B13}",
+    "Language": "SFX",
+    "Hash": "{FD038C00-73BB-B95D-AE24-0A983C482C34}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
+    "ShortName": "Main",
+    "Path": "Main.bnk",
+    "Media": [
+     {
+      "Id": "295001224",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps_Stone_05.wav",
+      "CachePath": "F8/{F8C9F995-901A-29A6-8B73-63AF0EA67878}.wem"
+     },
+     {
+      "Id": "508779429",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps_Stone_01.wav",
+      "CachePath": "51/{51A95F18-F7EF-AE2D-E718-289BED1C09E5}.wem"
+     },
+     {
+      "Id": "553860050",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps_Stone_02.wav",
+      "CachePath": "EE/{EEBC94F9-7309-9464-B4DF-874D7C675AFB}.wem"
+     },
+     {
+      "Id": "596299101",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps_Stone_06.wav",
+      "CachePath": "A4/{A40470FC-343D-C6EB-30C9-63D03128EC4E}.wem"
+     },
+     {
+      "Id": "722292251",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps_Stone_04.wav",
+      "CachePath": "9C/{9CD89958-B08B-152C-3D94-6597B98B59BD}.wem"
+     },
+     {
+      "Id": "891019598",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps_Stone_03.wav",
+      "CachePath": "F1/{F13B8EBE-C066-DC6D-0053-8A6D6A5A050C}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2385628198",
+      "Name": "Footsteps",
+      "ObjectPath": "\\Events\\Default Work Unit\\Footsteps",
+      "GUID": "{0533AC7E-ED4C-4DA1-A02A-50CB1AE1B328}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.20845833",
+      "DurationMax": "0.22789583",
+      "MediaRefs": [
+       {
+        "Id": "295001224"
+       },
+       {
+        "Id": "508779429"
+       },
+       {
+        "Id": "553860050"
+       },
+       {
+        "Id": "596299101"
+       },
+       {
+        "Id": "722292251"
+       },
+       {
+        "Id": "891019598"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{4C065B4C-FCE0-4121-378C-0B5CB9836000}"
+ }
+}

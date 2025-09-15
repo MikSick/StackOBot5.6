@@ -1,0 +1,11 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2385628198	Footsteps			\Default Work Unit\Footsteps	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	295001224	Footsteps_Stone_05	E:\Unreal Projects\StackOBot5.6\StackOBot5.6_WwiseProject\.cache\F8\{F8C9F995-901A-29A6-8B73-63AF0EA67878}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\Footsteps\Footsteps_Stone_05		21974
+	508779429	Footsteps_Stone_01	E:\Unreal Projects\StackOBot5.6\StackOBot5.6_WwiseProject\.cache\51\{51A95F18-F7EF-AE2D-E718-289BED1C09E5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\Footsteps\Footsteps_Stone_01		21304
+	553860050	Footsteps_Stone_02	E:\Unreal Projects\StackOBot5.6\StackOBot5.6_WwiseProject\.cache\EE\{EEBC94F9-7309-9464-B4DF-874D7C675AFB}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\Footsteps\Footsteps_Stone_02		21974
+	596299101	Footsteps_Stone_06	E:\Unreal Projects\StackOBot5.6\StackOBot5.6_WwiseProject\.cache\A4\{A40470FC-343D-C6EB-30C9-63D03128EC4E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\Footsteps\Footsteps_Stone_06		20108
+	722292251	Footsteps_Stone_04	E:\Unreal Projects\StackOBot5.6\StackOBot5.6_WwiseProject\.cache\9C\{9CD89958-B08B-152C-3D94-6597B98B59BD}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\Footsteps\Footsteps_Stone_04		20144
+	891019598	Footsteps_Stone_03	E:\Unreal Projects\StackOBot5.6\StackOBot5.6_WwiseProject\.cache\F1\{F13B8EBE-C066-DC6D-0053-8A6D6A5A050C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\Footsteps\Footsteps_Stone_03		20352
+
