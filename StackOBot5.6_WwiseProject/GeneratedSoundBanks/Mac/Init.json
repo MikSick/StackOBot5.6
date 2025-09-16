@@ -80,9 +80,37 @@
        ]
       }
      }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "2385628198",
+      "Name": "Footsteps",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps",
+      "GUID": "{383DF622-52F8-4FBE-B0BC-B4D3BEB43E46}",
+      "Switches": [
+       {
+        "Id": "782826392",
+        "Name": "Default",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps\\Default",
+        "GUID": "{EC61785A-1E03-4A8C-BB70-0FFD44B2F961}"
+       },
+       {
+        "Id": "841620460",
+        "Name": "Concrete",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps\\Concrete",
+        "GUID": "{3CCEA10E-C2A0-4131-831F-7C1814A22F82}"
+       },
+       {
+        "Id": "878219995",
+        "Name": "MetaSurface",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps\\MetaSurface",
+        "GUID": "{58679EA6-CEA8-416B-9CF9-F31E10AD5443}"
+       }
+      ]
+     }
     ]
    }
   ],
-  "FileHash": "{DAB18F2B-21ED-572A-192A-AA91401D6F84}"
+  "FileHash": "{391DF520-8484-20AD-72E3-D32CDE7E769C}"
  }
 }

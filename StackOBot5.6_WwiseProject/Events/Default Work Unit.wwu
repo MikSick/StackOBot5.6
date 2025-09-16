@@ -8,7 +8,7 @@
 						<Action Name="" ID="{3C4577C6-9CF9-4D87-BBF4-F28A0346354B}" ShortID="296298738">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Footsteps" ID="{3150B5EF-D506-43D4-8B33-4FDBCB819571}" WorkUnitID="{AF426861-089C-4C40-B560-09B3167DBB73}"/>
+									<ObjectRef Name="Footsteps" ID="{9584C41C-1DDE-40C9-AA2A-AAD6676AC786}" WorkUnitID="{AF426861-089C-4C40-B560-09B3167DBB73}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

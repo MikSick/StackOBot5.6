@@ -10,18 +10,66 @@
     "Type": "User",
     "GUID": "{47CF1CD0-D3CB-4594-A01D-E1273BC12B13}",
     "Language": "SFX",
-    "Hash": "{FD038C00-73BB-B95D-AE24-0A983C482C34}",
+    "Hash": "{0B1E48E4-CC77-4D13-9FD3-284B1AD7342D}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
     "Media": [
+     {
+      "Id": "25250616",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps_MetalSurface_04.wav",
+      "CachePath": "3D/{3D1B2CB8-2517-DF4C-BCF6-49D3FB4EF22B}.wem"
+     },
+     {
+      "Id": "97202569",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps_MetalSurface_03.wav",
+      "CachePath": "E5/{E5A3AF26-B726-28E1-F58C-AEF936D20B79}.wem"
+     },
+     {
+      "Id": "164502094",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps_MetalSurface_06.wav",
+      "CachePath": "3C/{3C6A7212-2113-10CA-F957-D4CE7ECCB08B}.wem"
+     },
+     {
+      "Id": "166695707",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps_MetalSurface_01.wav",
+      "CachePath": "E9/{E96067BF-9FAA-A6FC-B707-F10504DDD9A2}.wem"
+     },
+     {
+      "Id": "201958901",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps_MetalSurface_02.wav",
+      "CachePath": "DD/{DD5A50C1-49B9-7CF7-C021-93FCFF4C33A0}.wem"
+     },
      {
       "Id": "295001224",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps_Stone_05.wav",
-      "CachePath": "F8/{F8C9F995-901A-29A6-8B73-63AF0EA67878}.wem"
+      "CachePath": "10/{10CC32B6-C65A-04AF-C567-0EAD07260C68}.wem"
+     },
+     {
+      "Id": "502576203",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps_MetalSurface_05.wav",
+      "CachePath": "96/{967ECE44-BAD8-4787-25A9-D67DD73295FA}.wem"
      },
      {
       "Id": "508779429",
@@ -29,7 +77,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps_Stone_01.wav",
-      "CachePath": "51/{51A95F18-F7EF-AE2D-E718-289BED1C09E5}.wem"
+      "CachePath": "B9/{B9131B51-0B15-AEB1-F2C0-5FDE1B734A15}.wem"
      },
      {
       "Id": "553860050",
@@ -37,7 +85,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps_Stone_02.wav",
-      "CachePath": "EE/{EEBC94F9-7309-9464-B4DF-874D7C675AFB}.wem"
+      "CachePath": "6B/{6B71B774-BA39-DD65-357C-B2BCDB2E0346}.wem"
      },
      {
       "Id": "596299101",
@@ -45,7 +93,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps_Stone_06.wav",
-      "CachePath": "A4/{A40470FC-343D-C6EB-30C9-63D03128EC4E}.wem"
+      "CachePath": "A7/{A76ABFFF-7C86-EC9C-0ACB-A55873BAECEE}.wem"
      },
      {
       "Id": "722292251",
@@ -53,7 +101,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps_Stone_04.wav",
-      "CachePath": "9C/{9CD89958-B08B-152C-3D94-6597B98B59BD}.wem"
+      "CachePath": "6D/{6DB17BFE-FD7E-CEBD-4EDB-A1ADCA5BB5B8}.wem"
      },
      {
       "Id": "891019598",
@@ -61,7 +109,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps_Stone_03.wav",
-      "CachePath": "F1/{F13B8EBE-C066-DC6D-0053-8A6D6A5A050C}.wem"
+      "CachePath": "7E/{7EB70545-4236-EB1C-272B-F1D6EC57C8CE}.wem"
      }
     ],
     "Events": [
@@ -72,31 +120,126 @@
       "GUID": "{0533AC7E-ED4C-4DA1-A02A-50CB1AE1B328}",
       "DurationType": "OneShot",
       "DurationMin": "0.20845833",
-      "DurationMax": "0.22789583",
-      "MediaRefs": [
+      "DurationMax": "0.26745832",
+      "SwitchContainers": [
        {
-        "Id": "295001224"
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "2385628198",
+         "Id": "841620460",
+         "GUID": "{3CCEA10E-C2A0-4131-831F-7C1814A22F82}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "295001224"
+         },
+         {
+          "Id": "508779429"
+         },
+         {
+          "Id": "553860050"
+         },
+         {
+          "Id": "596299101"
+         },
+         {
+          "Id": "722292251"
+         },
+         {
+          "Id": "891019598"
+         }
+        ]
        },
        {
-        "Id": "508779429"
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "2385628198",
+         "Id": "782826392",
+         "GUID": "{EC61785A-1E03-4A8C-BB70-0FFD44B2F961}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "295001224"
+         },
+         {
+          "Id": "508779429"
+         },
+         {
+          "Id": "553860050"
+         },
+         {
+          "Id": "596299101"
+         },
+         {
+          "Id": "722292251"
+         },
+         {
+          "Id": "891019598"
+         }
+        ]
        },
        {
-        "Id": "553860050"
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "2385628198",
+         "Id": "878219995",
+         "GUID": "{58679EA6-CEA8-416B-9CF9-F31E10AD5443}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "25250616"
+         },
+         {
+          "Id": "97202569"
+         },
+         {
+          "Id": "164502094"
+         },
+         {
+          "Id": "166695707"
+         },
+         {
+          "Id": "201958901"
+         },
+         {
+          "Id": "502576203"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "2385628198",
+      "Name": "Footsteps",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps",
+      "GUID": "{383DF622-52F8-4FBE-B0BC-B4D3BEB43E46}",
+      "Switches": [
+       {
+        "Id": "782826392",
+        "Name": "Default",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps\\Default",
+        "GUID": "{EC61785A-1E03-4A8C-BB70-0FFD44B2F961}"
        },
        {
-        "Id": "596299101"
+        "Id": "841620460",
+        "Name": "Concrete",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps\\Concrete",
+        "GUID": "{3CCEA10E-C2A0-4131-831F-7C1814A22F82}"
        },
        {
-        "Id": "722292251"
-       },
-       {
-        "Id": "891019598"
+        "Id": "878219995",
+        "Name": "MetaSurface",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps\\MetaSurface",
+        "GUID": "{58679EA6-CEA8-416B-9CF9-F31E10AD5443}"
        }
       ]
      }
     ]
    }
   ],
-  "FileHash": "{EB8FDCD3-E1DC-7C41-EBA2-B261841C58EE}"
+  "FileHash": "{3ECD817E-BEB5-3A37-7D0D-90EE42267B48}"
  }
 }
