@@ -41,6 +41,10 @@
 *.VC.db
 *.VC.opendb
 
+# Ignor some files
+Content/StackOBot/Environment/Rocks/SM_RockFlats_01.uasset
+Content/FirstGameInUE5_Source.zip
+
 # Binary Files
 Binaries/*
 Plugins/*/Binaries/*
