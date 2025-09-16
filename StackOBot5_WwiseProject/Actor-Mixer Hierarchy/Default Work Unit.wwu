@@ -185,6 +185,13 @@
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Footsteps_MetalSurface" ID="{CA53A998-6D47-4349-9AD2-636427018FCD}" ShortID="1058458916">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7BE263B-E925-444B-BC5F-7FE301A46EEC}"/>
