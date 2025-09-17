@@ -95,6 +95,12 @@
         "GUID": "{EC61785A-1E03-4A8C-BB70-0FFD44B2F961}"
        },
        {
+        "Id": "803837735",
+        "Name": "Sand",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps\\Sand",
+        "GUID": "{7E5D46BC-283E-464B-B137-764BE9C93608}"
+       },
+       {
         "Id": "841620460",
         "Name": "Concrete",
         "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps\\Concrete",
@@ -111,6 +117,6 @@
     ]
    }
   ],
-  "FileHash": "{391DF520-8484-20AD-72E3-D32CDE7E769C}"
+  "FileHash": "{206E60AE-6742-50B8-916E-7465DE8AA8D4}"
  }
 }

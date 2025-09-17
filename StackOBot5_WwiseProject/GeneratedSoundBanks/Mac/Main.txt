@@ -1,25 +1,36 @@
 Event	ID	Name			Wwise Object Path	Notes
 	2385628198	Footsteps			\Default Work Unit\Footsteps	
+	3208028412	Jetpack_Start			\Default Work Unit\JetPack\Jetpack_Start	
+	4226252255	Jetpack_End			\Default Work Unit\JetPack\Jetpack_End	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
 	2385628198	Footsteps			\Default Work Unit\Footsteps	
 
 Switch	ID	Name	Switch Group			Notes
 	782826392	Default	Footsteps			
+	803837735	Sand	Footsteps			
 	841620460	Concrete	Footsteps			
 	878219995	MetaSurface	Footsteps			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	25250616	Footsteps_MetalSurface_04	E:\Unreal Projects\StackOBot5\StackOBot5_WwiseProject\.cache\3D\{3D1B2CB8-2517-DF4C-BCF6-49D3FB4EF22B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\Footsteps\Footsteps_MetalSurface\Footsteps_MetalSurface_04		21644
 	97202569	Footsteps_MetalSurface_03	E:\Unreal Projects\StackOBot5\StackOBot5_WwiseProject\.cache\E5\{E5A3AF26-B726-28E1-F58C-AEF936D20B79}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\Footsteps\Footsteps_MetalSurface\Footsteps_MetalSurface_03		21940
+	149819887	Jetpack_On	E:\Unreal Projects\StackOBot5\StackOBot5_WwiseProject\.cache\F9\{F94FD246-B22F-05B2-5A83-1820542E2150}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\JetPack\Jetpack_Start\Jetpack_On		44306
 	164502094	Footsteps_MetalSurface_06	E:\Unreal Projects\StackOBot5\StackOBot5_WwiseProject\.cache\3C\{3C6A7212-2113-10CA-F957-D4CE7ECCB08B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\Footsteps\Footsteps_MetalSurface\Footsteps_MetalSurface_06		21644
 	166695707	Footsteps_MetalSurface_01	E:\Unreal Projects\StackOBot5\StackOBot5_WwiseProject\.cache\E9\{E96067BF-9FAA-A6FC-B707-F10504DDD9A2}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\Footsteps\Footsteps_MetalSurface\Footsteps_MetalSurface_01		22364
 	201958901	Footsteps_MetalSurface_02	E:\Unreal Projects\StackOBot5\StackOBot5_WwiseProject\.cache\DD\{DD5A50C1-49B9-7CF7-C021-93FCFF4C33A0}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\Footsteps\Footsteps_MetalSurface\Footsteps_MetalSurface_02		23100
+	202524430	Jetpack_Loop	E:\Unreal Projects\StackOBot5\StackOBot5_WwiseProject\.cache\04\{04112D53-5F5D-0CE0-5984-CD70D335B6C6}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\JetPack\Jetpack_Start\Jetpack_Loop		325428
 	295001224	Footsteps_Stone_05	E:\Unreal Projects\StackOBot5\StackOBot5_WwiseProject\.cache\10\{10CC32B6-C65A-04AF-C567-0EAD07260C68}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\Footsteps\Footsteps_Concrete\Footsteps_Stone_05		21974
+	323955497	Footsteps_Sand_03	E:\Unreal Projects\StackOBot5\StackOBot5_WwiseProject\.cache\D7\{D79BB9D1-AF1E-284B-DD36-33D868BC57D6}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\Footsteps\Footsteps_Sand\Footsteps_Sand_03		21346
+	345613385	Footsteps_Sand_04	E:\Unreal Projects\StackOBot5\StackOBot5_WwiseProject\.cache\4C\{4C90F83F-827F-3165-0DCC-760F31BBF6B9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\Footsteps\Footsteps_Sand\Footsteps_Sand_04		20746
 	502576203	Footsteps_MetalSurface_05	E:\Unreal Projects\StackOBot5\StackOBot5_WwiseProject\.cache\96\{967ECE44-BAD8-4787-25A9-D67DD73295FA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\Footsteps\Footsteps_MetalSurface\Footsteps_MetalSurface_05		25772
 	508779429	Footsteps_Stone_01	E:\Unreal Projects\StackOBot5\StackOBot5_WwiseProject\.cache\B9\{B9131B51-0B15-AEB1-F2C0-5FDE1B734A15}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\Footsteps\Footsteps_Concrete\Footsteps_Stone_01		21304
+	549906345	Footsteps_Sand_05	E:\Unreal Projects\StackOBot5\StackOBot5_WwiseProject\.cache\E8\{E805B6DA-BA97-96B5-3A33-17390F8EEC52}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\Footsteps\Footsteps_Sand\Footsteps_Sand_05		19844
+	553695479	Footsteps_Sand_02	E:\Unreal Projects\StackOBot5\StackOBot5_WwiseProject\.cache\84\{844AA80E-73C8-379F-4168-A183BBB6BC3D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\Footsteps\Footsteps_Sand\Footsteps_Sand_02		20810
 	553860050	Footsteps_Stone_02	E:\Unreal Projects\StackOBot5\StackOBot5_WwiseProject\.cache\6B\{6B71B774-BA39-DD65-357C-B2BCDB2E0346}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\Footsteps\Footsteps_Concrete\Footsteps_Stone_02		21974
+	570115450	Footsteps_Sand_01	E:\Unreal Projects\StackOBot5\StackOBot5_WwiseProject\.cache\11\{11539351-5793-7B58-9ECD-B01B17BF75BD}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\Footsteps\Footsteps_Sand\Footsteps_Sand_01		22526
 	596299101	Footsteps_Stone_06	E:\Unreal Projects\StackOBot5\StackOBot5_WwiseProject\.cache\A7\{A76ABFFF-7C86-EC9C-0ACB-A55873BAECEE}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\Footsteps\Footsteps_Concrete\Footsteps_Stone_06		20108
 	722292251	Footsteps_Stone_04	E:\Unreal Projects\StackOBot5\StackOBot5_WwiseProject\.cache\6D\{6DB17BFE-FD7E-CEBD-4EDB-A1ADCA5BB5B8}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\Footsteps\Footsteps_Concrete\Footsteps_Stone_04		20144
+	772873634	Footsteps_Sand_06	E:\Unreal Projects\StackOBot5\StackOBot5_WwiseProject\.cache\AA\{AAE3E8ED-04C8-E55A-6491-B8951BA2E796}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\Footsteps\Footsteps_Sand\Footsteps_Sand_06		20226
 	891019598	Footsteps_Stone_03	E:\Unreal Projects\StackOBot5\StackOBot5_WwiseProject\.cache\7E\{7EB70545-4236-EB1C-272B-F1D6EC57C8CE}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\Footsteps\Footsteps_Concrete\Footsteps_Stone_03		20352
 

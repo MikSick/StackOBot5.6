@@ -8,6 +8,7 @@
 						<Switch Name="Concrete" ID="{3CCEA10E-C2A0-4131-831F-7C1814A22F82}"/>
 						<Switch Name="MetaSurface" ID="{58679EA6-CEA8-416B-9CF9-F31E10AD5443}"/>
 						<Switch Name="Default" ID="{EC61785A-1E03-4A8C-BB70-0FFD44B2F961}"/>
+						<Switch Name="Sand" ID="{7E5D46BC-283E-464B-B137-764BE9C93608}"/>
 					</ChildrenList>
 				</SwitchGroup>
 			</ChildrenList>

@@ -14,6 +14,35 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="JetPack" ID="{BA60EE09-8254-41ED-B536-3A88E6C3ABD1}" ShortID="1040083548">
+					<ChildrenList>
+						<Event Name="Jetpack_End" ID="{2C3551A8-DA50-45DA-BF08-8257BC160FBA}">
+							<ChildrenList>
+								<Action Name="" ID="{ED7CAAA0-ADB8-41E5-88A4-C97D2F45E913}" ShortID="62605765">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Jetpack_Start" ID="{247274E4-E90F-45E8-AEC2-D76A6F544958}" WorkUnitID="{AF426861-089C-4C40-B560-09B3167DBB73}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Jetpack_Start" ID="{9BA74811-2170-44E7-8AAA-2C9107ABD604}">
+							<ChildrenList>
+								<Action Name="" ID="{23E3CBD7-1C35-40E3-AF72-615B8EE59A21}" ShortID="759976569">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Jetpack_Start" ID="{247274E4-E90F-45E8-AEC2-D76A6F544958}" WorkUnitID="{AF426861-089C-4C40-B560-09B3167DBB73}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
