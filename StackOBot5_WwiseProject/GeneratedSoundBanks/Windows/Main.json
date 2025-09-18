@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{47CF1CD0-D3CB-4594-A01D-E1273BC12B13}",
     "Language": "SFX",
-    "Hash": "{B6FC98A8-CD8F-D618-2409-AA4B04A9436E}",
+    "Hash": "{C7D46550-DCB3-20A5-07D3-57B5D5E1C89F}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -21,7 +21,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps_MetalSurface_04.wav",
-      "CachePath": "3D/{3D1B2CB8-2517-DF4C-BCF6-49D3FB4EF22B}.wem"
+      "CachePath": "71/{71A79044-348B-7460-1176-F49088D1CD85}.wem"
      },
      {
       "Id": "97202569",
@@ -29,7 +29,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps_MetalSurface_03.wav",
-      "CachePath": "E5/{E5A3AF26-B726-28E1-F58C-AEF936D20B79}.wem"
+      "CachePath": "45/{45852DA1-8D68-68B8-468C-939E760353A1}.wem"
      },
      {
       "Id": "149819887",
@@ -45,7 +45,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps_MetalSurface_06.wav",
-      "CachePath": "3C/{3C6A7212-2113-10CA-F957-D4CE7ECCB08B}.wem"
+      "CachePath": "DE/{DE92538C-72F6-98AD-8A21-2773DF9A71AD}.wem"
      },
      {
       "Id": "166695707",
@@ -53,7 +53,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps_MetalSurface_01.wav",
-      "CachePath": "E9/{E96067BF-9FAA-A6FC-B707-F10504DDD9A2}.wem"
+      "CachePath": "F6/{F6A3D0A1-9EF9-E453-FD94-0EBB2ACBBEEE}.wem"
      },
      {
       "Id": "201958901",
@@ -61,7 +61,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps_MetalSurface_02.wav",
-      "CachePath": "DD/{DD5A50C1-49B9-7CF7-C021-93FCFF4C33A0}.wem"
+      "CachePath": "DF/{DF0ABB64-ACAD-DED0-3D7B-A92F88115CDF}.wem"
      },
      {
       "Id": "202524430",
@@ -93,7 +93,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps_Sand_03.wav",
-      "CachePath": "AF/{AFABDC71-8A6B-D2CB-5F4C-CCA5BC25C0ED}.wem"
+      "CachePath": "4F/{4FC475C3-8B03-A6AC-E957-EF97010374D8}.wem"
      },
      {
       "Id": "345613385",
@@ -101,7 +101,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps_Sand_04.wav",
-      "CachePath": "85/{855C84C8-62B8-99A8-A8D4-DC833B926636}.wem"
+      "CachePath": "EC/{EC116675-230B-56E9-BE58-9A2465994F25}.wem"
      },
      {
       "Id": "502576203",
@@ -109,7 +109,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps_MetalSurface_05.wav",
-      "CachePath": "96/{967ECE44-BAD8-4787-25A9-D67DD73295FA}.wem"
+      "CachePath": "D8/{D8701C4B-342C-8D4C-633E-8DA089888F0C}.wem"
      },
      {
       "Id": "508779429",
@@ -117,7 +117,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps_Stone_01.wav",
-      "CachePath": "8E/{8E28D10D-EAB0-C791-3C9B-897C01C9DC83}.wem"
+      "CachePath": "0F/{0F43A089-6CB8-3454-E965-B2C7778DA934}.wem"
      },
      {
       "Id": "549906345",
@@ -125,7 +125,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps_Sand_05.wav",
-      "CachePath": "CC/{CCF9AC50-60B2-21B0-BA0E-E1881D2AAA5A}.wem"
+      "CachePath": "B6/{B6A36AC8-86F0-1BAD-5517-C21A5F18D1E1}.wem"
      },
      {
       "Id": "553695479",
@@ -133,7 +133,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps_Sand_02.wav",
-      "CachePath": "16/{1668D5E0-78A2-5C42-19D0-3C3582FC491E}.wem"
+      "CachePath": "DA/{DA5A7053-C506-4533-C284-C16FBAB5E0C9}.wem"
      },
      {
       "Id": "553860050",
@@ -149,7 +149,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps_Sand_01.wav",
-      "CachePath": "45/{45C85706-A52D-3FD1-49EB-59E779027B16}.wem"
+      "CachePath": "51/{51CD79A6-9457-E551-337E-6AD6AAE4AFAD}.wem"
      },
      {
       "Id": "596299101",
@@ -181,7 +181,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps_Sand_06.wav",
-      "CachePath": "5D/{5D4C8E24-E347-053A-9BBC-21EA614A08C1}.wem"
+      "CachePath": "5A/{5A9350F6-8D5A-711D-FD84-C13606DA1F4F}.wem"
      },
      {
       "Id": "849242752",
@@ -436,6 +436,6 @@
     ]
    }
   ],
-  "FileHash": "{A14B9547-14D2-5E61-169E-0B0B3590941F}"
+  "FileHash": "{ADA054BD-0A06-6BA1-50C4-93773C78382C}"
  }
 }
