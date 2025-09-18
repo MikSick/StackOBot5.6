@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{47CF1CD0-D3CB-4594-A01D-E1273BC12B13}",
     "Language": "SFX",
-    "Hash": "{768AA897-6CC5-0A01-9347-80897E8318C4}",
+    "Hash": "{6EBB833F-17A2-0C30-65C6-9B0737C761DE}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -37,7 +37,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Jetpack_On.wav",
-      "CachePath": "F9/{F94FD246-B22F-05B2-5A83-1820542E2150}.wem"
+      "CachePath": "37/{37F3AD76-794E-6B61-0BFA-2F90B129CF49}.wem"
      },
      {
       "Id": "164502094",
@@ -72,6 +72,14 @@
       "CachePath": "04/{04112D53-5F5D-0CE0-5984-CD70D335B6C6}.wem"
      },
      {
+      "Id": "253513885",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps_Land_Stone_01.wav",
+      "CachePath": "58/{58C9FBCF-E0B6-A2F5-1A4F-45B6865503B2}.wem"
+     },
+     {
       "Id": "295001224",
       "Language": "SFX",
       "Streaming": "false",
@@ -85,7 +93,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps_Sand_03.wav",
-      "CachePath": "D7/{D79BB9D1-AF1E-284B-DD36-33D868BC57D6}.wem"
+      "CachePath": "AF/{AFABDC71-8A6B-D2CB-5F4C-CCA5BC25C0ED}.wem"
      },
      {
       "Id": "345613385",
@@ -93,7 +101,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps_Sand_04.wav",
-      "CachePath": "4C/{4C90F83F-827F-3165-0DCC-760F31BBF6B9}.wem"
+      "CachePath": "85/{855C84C8-62B8-99A8-A8D4-DC833B926636}.wem"
      },
      {
       "Id": "502576203",
@@ -117,7 +125,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps_Sand_05.wav",
-      "CachePath": "E8/{E805B6DA-BA97-96B5-3A33-17390F8EEC52}.wem"
+      "CachePath": "CC/{CCF9AC50-60B2-21B0-BA0E-E1881D2AAA5A}.wem"
      },
      {
       "Id": "553695479",
@@ -125,7 +133,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps_Sand_02.wav",
-      "CachePath": "84/{844AA80E-73C8-379F-4168-A183BBB6BC3D}.wem"
+      "CachePath": "16/{1668D5E0-78A2-5C42-19D0-3C3582FC491E}.wem"
      },
      {
       "Id": "553860050",
@@ -141,7 +149,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps_Sand_01.wav",
-      "CachePath": "11/{11539351-5793-7B58-9ECD-B01B17BF75BD}.wem"
+      "CachePath": "45/{45C85706-A52D-3FD1-49EB-59E779027B16}.wem"
      },
      {
       "Id": "596299101",
@@ -160,12 +168,28 @@
       "CachePath": "6D/{6DB17BFE-FD7E-CEBD-4EDB-A1ADCA5BB5B8}.wem"
      },
      {
+      "Id": "733507230",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps_Land_Stone_02.wav",
+      "CachePath": "43/{43C6D5E8-79D0-1C0B-70A6-730EBF66F11F}.wem"
+     },
+     {
       "Id": "772873634",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps_Sand_06.wav",
-      "CachePath": "AA/{AAE3E8ED-04C8-E55A-6491-B8951BA2E796}.wem"
+      "CachePath": "5D/{5D4C8E24-E347-053A-9BBC-21EA614A08C1}.wem"
+     },
+     {
+      "Id": "849242752",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps_Land_Stone_03.wav",
+      "CachePath": "4A/{4A07069E-C3F3-0C5C-A3A6-7DD733B28E37}.wem"
      },
      {
       "Id": "891019598",
@@ -302,6 +326,55 @@
       ]
      },
      {
+      "Id": "3261944238",
+      "Name": "Footsteps_Land",
+      "ObjectPath": "\\Events\\Default Work Unit\\Footsteps_Land",
+      "GUID": "{65596C92-4752-4B91-8812-65A25BD09185}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.28077084",
+      "DurationMax": "0.3085625",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "2385628198",
+         "Id": "841620460",
+         "GUID": "{3CCEA10E-C2A0-4131-831F-7C1814A22F82}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "253513885"
+         },
+         {
+          "Id": "733507230"
+         },
+         {
+          "Id": "849242752"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "2385628198",
+         "Id": "782826392",
+         "GUID": "{EC61785A-1E03-4A8C-BB70-0FFD44B2F961}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "253513885"
+         },
+         {
+          "Id": "733507230"
+         },
+         {
+          "Id": "849242752"
+         }
+        ]
+       }
+      ]
+     },
+     {
       "Id": "4226252255",
       "Name": "Jetpack_End",
       "ObjectPath": "\\Events\\Default Work Unit\\JetPack\\Jetpack_End",
@@ -363,6 +436,6 @@
     ]
    }
   ],
-  "FileHash": "{793CBE5B-C32E-BDF2-3891-2A2FF1B16FF7}"
+  "FileHash": "{6848DDD3-63A4-2D23-1DD5-222D6D141EED}"
  }
 }
