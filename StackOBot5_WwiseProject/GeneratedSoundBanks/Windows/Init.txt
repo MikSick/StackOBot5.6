@@ -6,6 +6,7 @@ Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	2060699703	Reverb_Sphere			\Default Work Unit\Master Audio Bus\Reverb_Sphere	
 
 Effect plug-ins	ID	Name	Type				Notes
+	1675424737	Extreme_Limiting_1	Wwise Peak Limiter			
 	3451596814	Hall_Medium	Wwise RoomVerb			
 
 Audio Devices	ID	Name	Type				Notes

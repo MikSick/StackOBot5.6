@@ -10,12 +10,20 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{269EA02F-8A43-F3B7-266B-D86F14BBB943}",
+    "Hash": "{D6013046-065C-47C7-72A7-1E5E6214E936}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
     "Plugins": {
      "ShareSets": [
+      {
+       "Id": "1675424737",
+       "Name": "Extreme_Limiting_1",
+       "ObjectPath": "\\Effects\\Factory Effects\\Peak Limiter\\Extreme_Limiting_1",
+       "GUID": "{8F08A8A7-3313-4E5D-9EBD-2B1B564DE411}",
+       "LibName": "Wwise Peak Limiter",
+       "LibId": "7208963"
+      },
       {
        "Id": "3451596814",
        "Name": "Hall_Medium",
@@ -49,7 +57,14 @@
       "Id": "3803692087",
       "Name": "Master Audio Bus",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
-      "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+      "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "1675424737"
+        }
+       ]
+      }
      }
     ],
     "AuxBusses": [
@@ -117,6 +132,6 @@
     ]
    }
   ],
-  "FileHash": "{406E774D-EF8E-5C7E-78EB-ECC7CB8BF709}"
+  "FileHash": "{D0577262-DF03-EBD8-FB0E-971353810B9A}"
  }
 }

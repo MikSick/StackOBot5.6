@@ -31,6 +31,21 @@
 							</ObjectLists>
 						</AuxBus>
 					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{A9B66774-1170-41AB-9E87-33CDE39B8E9F}" ShortID="240277783">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
+												<ObjectRef Name="Extreme_Limiting_1" ID="{8F08A8A7-3313-4E5D-9EBD-2B1B564DE411}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

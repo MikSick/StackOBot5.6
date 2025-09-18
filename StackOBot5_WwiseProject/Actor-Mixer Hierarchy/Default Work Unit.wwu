@@ -342,7 +342,7 @@
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-9</Value>
+												<Value>-10</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -838,6 +838,127 @@
 										<SwitchRef Name="Default" ID="{EC61785A-1E03-4A8C-BB70-0FFD44B2F961}"/>
 										<ItemList>
 											<ItemRef Name="Land_Concrete" ID="{E2A279BC-1C60-4AE0-8D6E-517501F18676}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+						<SwitchContainer Name="Footsteps_Jump" ID="{7584F074-05B4-451D-9702-AE4A9C514E17}" ShortID="618713">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7BE263B-E925-444B-BC5F-7FE301A46EEC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BC94B3BA-AB49-440C-B1B7-B81D456AC084}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="Footsteps" ID="{383DF622-52F8-4FBE-B0BC-B4D3BEB43E46}" WorkUnitID="{1D173748-A718-4C00-AE41-BA88C27B2AF9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Jump_Concrete" ID="{8ACF4B18-8280-4BD9-B7FD-ED9E00440F8E}" ShortID="353847824">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7BE263B-E925-444B-BC5F-7FE301A46EEC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BC94B3BA-AB49-440C-B1B7-B81D456AC084}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Footsteps_Jump_Stone_01" ID="{684AAA44-F83E-48F4-BDD6-F7B30769AEC7}" ShortID="551069002">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7BE263B-E925-444B-BC5F-7FE301A46EEC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BC94B3BA-AB49-440C-B1B7-B81D456AC084}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps_Jump_Stone_01" ID="{BBCB44F6-F6DF-46C4-90D8-39C7DDC488C4}">
+													<Language>SFX</Language>
+													<AudioFile>Footsteps_Jump_Stone_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="826866812"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps_Jump_Stone_01" ID="{BBCB44F6-F6DF-46C4-90D8-39C7DDC488C4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Footsteps_Jump_Stone_02" ID="{5192BD99-60C6-41ED-87EE-7C4CBB08C4F5}" ShortID="535097281">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7BE263B-E925-444B-BC5F-7FE301A46EEC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BC94B3BA-AB49-440C-B1B7-B81D456AC084}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps_Jump_Stone_02" ID="{626D2D68-24C7-4CB3-848A-3A4E6B6580D9}">
+													<Language>SFX</Language>
+													<AudioFile>Footsteps_Jump_Stone_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="959317970"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps_Jump_Stone_02" ID="{626D2D68-24C7-4CB3-848A-3A4E6B6580D9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Footsteps_Jump_Stone_03" ID="{86333F8E-BDC3-465E-93D5-CE1986F67D37}" ShortID="708063979">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F7BE263B-E925-444B-BC5F-7FE301A46EEC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BC94B3BA-AB49-440C-B1B7-B81D456AC084}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Footsteps_Jump_Stone_03" ID="{36AD2CAD-1055-4753-8083-9C27038A726F}">
+													<Language>SFX</Language>
+													<AudioFile>Footsteps_Jump_Stone_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="113102591"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Footsteps_Jump_Stone_03" ID="{36AD2CAD-1055-4753-8083-9C27038A726F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Jump_Concrete" ID="{8ACF4B18-8280-4BD9-B7FD-ED9E00440F8E}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Concrete" ID="{3CCEA10E-C2A0-4131-831F-7C1814A22F82}"/>
+										<ItemList>
+											<ItemRef Name="Jump_Concrete" ID="{8ACF4B18-8280-4BD9-B7FD-ED9E00440F8E}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Default" ID="{EC61785A-1E03-4A8C-BB70-0FFD44B2F961}"/>
+										<ItemList>
+											<ItemRef Name="Jump_Concrete" ID="{8ACF4B18-8280-4BD9-B7FD-ED9E00440F8E}"/>
 										</ItemList>
 									</Grouping>
 								</GroupingList>
