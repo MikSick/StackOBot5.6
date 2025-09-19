@@ -11,9 +11,6 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AuxBus Name="Reverb_Sphere" ID="{4F5964DF-D97D-4056-9EF6-7B74CE6FCDED}">
-							<ChildrenList>
-								<AuxBus Name="Reverb" ID="{84F5B590-D6EF-4C09-96B7-612851F73791}"/>
-							</ChildrenList>
 							<ObjectLists>
 								<ObjectList Name="Effects">
 									<Reference>
@@ -22,6 +19,23 @@
 												<ReferenceList>
 													<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
 														<ObjectRef Name="Hall_Medium" ID="{50286348-176A-4235-9E4C-CA5F73D87818}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</AuxBus>
+						<AuxBus Name="Reverb_World" ID="{865A704D-7F89-42F6-9C2C-EF94F3544F5F}">
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{0EC349B2-D545-44D4-A19C-AC2254A4D3A9}" ShortID="262102063">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+														<ObjectRef Name="Have_U_Ever_Been_Outside" ID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 													</Reference>
 												</ReferenceList>
 											</EffectSlot>

@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2060699703",
+    "Type": "Bus",
+    "GUID": "{4F5964DF-D97D-4056-9EF6-7B74CE6FCDED}",
+    "Language": "SFX",
+    "Hash": "{3BC489B9-5DF5-A79D-2728-2533984DE1AC}",
+    "ObjectPath": "Reverb_Sphere",
+    "ShortName": "Reverb_Sphere",
+    "Path": "Bus/Reverb_Sphere.bnk",
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "3451596814",
+       "Name": "Hall_Medium",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Halls\\Hall_Medium",
+       "GUID": "{50286348-176A-4235-9E4C-CA5F73D87818}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
+    "AuxBusses": [
+     {
+      "Id": "2060699703",
+      "Name": "Reverb_Sphere",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb_Sphere",
+      "GUID": "{4F5964DF-D97D-4056-9EF6-7B74CE6FCDED}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "3451596814"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ],
+  "FileHash": "{D6FECCAF-8F9E-8908-7CE8-84922BDEB919}"
+ }
+}
