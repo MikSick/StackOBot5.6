@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{47CF1CD0-D3CB-4594-A01D-E1273BC12B13}",
     "Language": "SFX",
-    "Hash": "{1D6FE875-960B-44F6-AF27-39E6D11EC281}",
+    "Hash": "{9F5A9369-2644-4483-2169-A22FAF464F3B}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -222,6 +222,14 @@
       "Location": "Memory",
       "ShortName": "Footsteps_Jump_Stone_02.wav",
       "CachePath": "8D/{8DA4CA44-F68B-2521-1F0E-8F192F722DF6}.wem"
+     },
+     {
+      "Id": "989278900",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Spawn.wav",
+      "CachePath": "35/{35F914E9-719B-3D75-EDC3-1195D307A722}.wem"
      }
     ],
     "Events": [
@@ -471,6 +479,20 @@
         "Id": "202524430"
        }
       ]
+     },
+     {
+      "Id": "71202558",
+      "Name": "Spawn",
+      "ObjectPath": "\\Events\\Default Work Unit\\Spawn",
+      "GUID": "{50E26AB1-7F73-466A-BDEE-F17A72CAC27F}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.4699583",
+      "DurationMax": "1.4699583",
+      "MediaRefs": [
+       {
+        "Id": "989278900"
+       }
+      ]
      }
     ],
     "SwitchGroups": [
@@ -509,6 +531,6 @@
     ]
    }
   ],
-  "FileHash": "{AF8AF54B-2C7B-E8D4-5F38-95861C5FB2CA}"
+  "FileHash": "{45ADD3D7-072C-2A1A-F861-48B7FE3D0A70}"
  }
 }

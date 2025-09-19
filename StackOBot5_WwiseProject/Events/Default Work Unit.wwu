@@ -65,6 +65,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Spawn" ID="{50E26AB1-7F73-466A-BDEE-F17A72CAC27F}">
+					<ChildrenList>
+						<Action Name="" ID="{7D85A05E-3DAE-4DE6-8B7B-B73010ECBB7A}" ShortID="233275727">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Spawn" ID="{9CDE3647-D71E-4853-BCB9-A3B98BA451DC}" WorkUnitID="{AF426861-089C-4C40-B560-09B3167DBB73}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

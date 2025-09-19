@@ -1,4 +1,5 @@
 Event	ID	Name			Wwise Object Path	Notes
+	71202558	Spawn			\Default Work Unit\Spawn	
 	2385628198	Footsteps			\Default Work Unit\Footsteps	
 	3199873489	Footsteps_Jump			\Default Work Unit\Footsteps_Jump	
 	3208028412	Jetpack_Start			\Default Work Unit\JetPack\Jetpack_Start	
@@ -41,4 +42,5 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	849242752	Footsteps_Land_Stone_03	E:\Unreal Projects\StackOBot5\StackOBot5_WwiseProject\.cache\92\{92D5E06A-CE09-EEDC-0649-DBDB1DC68E99}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\Footstep_Land\Land_Concrete\Footsteps_Land_Stone_03		29718
 	891019598	Footsteps_Stone_03	E:\Unreal Projects\StackOBot5\StackOBot5_WwiseProject\.cache\50\{501161A9-EC5B-4644-935F-F716BFFEC926}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\Footsteps\Footsteps_Concrete\Footsteps_Stone_03		20352
 	959317970	Footsteps_Jump_Stone_02	E:\Unreal Projects\StackOBot5\StackOBot5_WwiseProject\.cache\8D\{8DA4CA44-F68B-2521-1F0E-8F192F722DF6}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\Footsteps_Jump\Jump_Concrete\Footsteps_Jump_Stone_02		21628
+	989278900	UI_Spawn	E:\Unreal Projects\StackOBot5\StackOBot5_WwiseProject\.cache\35\{35F914E9-719B-3D75-EDC3-1195D307A722}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\UI_Spawn		282328
 

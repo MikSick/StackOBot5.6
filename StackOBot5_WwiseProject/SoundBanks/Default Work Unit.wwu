@@ -7,6 +7,7 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="Jetpack_Start" ID="{9BA74811-2170-44E7-8AAA-2C9107ABD604}" WorkUnitID="{ACE4A5E8-BADD-4936-BB47-B698D740F957}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Jetpack_End" ID="{2C3551A8-DA50-45DA-BF08-8257BC160FBA}" WorkUnitID="{ACE4A5E8-BADD-4936-BB47-B698D740F957}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Spawn" ID="{50E26AB1-7F73-466A-BDEE-F17A72CAC27F}" WorkUnitID="{ACE4A5E8-BADD-4936-BB47-B698D740F957}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Footsteps_Land" ID="{65596C92-4752-4B91-8812-65A25BD09185}" WorkUnitID="{ACE4A5E8-BADD-4936-BB47-B698D740F957}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Footsteps_Jump" ID="{75818F9F-040B-4CF0-8CEC-6ECF0A760155}" WorkUnitID="{ACE4A5E8-BADD-4936-BB47-B698D740F957}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Footsteps" ID="{0533AC7E-ED4C-4DA1-A02A-50CB1AE1B328}" WorkUnitID="{ACE4A5E8-BADD-4936-BB47-B698D740F957}" Origin="Manual" Filter="7"/>
