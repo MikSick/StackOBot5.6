@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{47CF1CD0-D3CB-4594-A01D-E1273BC12B13}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Ambience" ID="{DEDCF5C7-FA66-41A2-8AD4-0F0208C351B4}" WorkUnitID="{ACE4A5E8-BADD-4936-BB47-B698D740F957}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Jetpack_Start" ID="{9BA74811-2170-44E7-8AAA-2C9107ABD604}" WorkUnitID="{ACE4A5E8-BADD-4936-BB47-B698D740F957}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Jetpack_End" ID="{2C3551A8-DA50-45DA-BF08-8257BC160FBA}" WorkUnitID="{ACE4A5E8-BADD-4936-BB47-B698D740F957}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Spawn" ID="{50E26AB1-7F73-466A-BDEE-F17A72CAC27F}" WorkUnitID="{ACE4A5E8-BADD-4936-BB47-B698D740F957}" Origin="Manual" Filter="7"/>

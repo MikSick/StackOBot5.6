@@ -10,7 +10,7 @@
     "Type": "Bus",
     "GUID": "{4F5964DF-D97D-4056-9EF6-7B74CE6FCDED}",
     "Language": "SFX",
-    "Hash": "{3BC489B9-5DF5-A79D-2728-2533984DE1AC}",
+    "Hash": "{C803A95A-D14A-7542-3F97-F158FC60E3E1}",
     "ObjectPath": "Reverb_Sphere",
     "ShortName": "Reverb_Sphere",
     "Path": "Bus/Reverb_Sphere.bnk",
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{D6FECCAF-8F9E-8908-7CE8-84922BDEB919}"
+  "FileHash": "{CFD1317B-8B9A-6F4F-B656-E1706D1DB562}"
  }
 }

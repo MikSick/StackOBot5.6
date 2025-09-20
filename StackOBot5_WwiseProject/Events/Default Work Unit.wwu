@@ -76,6 +76,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Ambience" ID="{DEDCF5C7-FA66-41A2-8AD4-0F0208C351B4}">
+					<ChildrenList>
+						<Action Name="" ID="{BB126806-53FF-4EE8-B765-E32D9D8BFFAE}" ShortID="434647797">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambience_01" ID="{18A9946E-5BBF-4EB9-A68E-FC8004DEC949}" WorkUnitID="{AF426861-089C-4C40-B560-09B3167DBB73}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

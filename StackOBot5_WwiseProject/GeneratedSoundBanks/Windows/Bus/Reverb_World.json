@@ -10,7 +10,7 @@
     "Type": "Bus",
     "GUID": "{865A704D-7F89-42F6-9C2C-EF94F3544F5F}",
     "Language": "SFX",
-    "Hash": "{646A767F-C3E2-F6FF-C4B1-FFE5B9D41A2B}",
+    "Hash": "{291D2303-57FF-944D-AEE8-4F18F12E15E7}",
     "ObjectPath": "Reverb_World",
     "ShortName": "Reverb_World",
     "Path": "Bus/Reverb_World.bnk",
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{A3C29A78-7EBF-ACCC-1F89-64A756147EBA}"
+  "FileHash": "{D4FAEBA7-6203-2203-0CCD-18CECB27ECB0}"
  }
 }

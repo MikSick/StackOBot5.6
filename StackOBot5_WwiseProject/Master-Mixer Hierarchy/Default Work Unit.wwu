@@ -11,6 +11,11 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AuxBus Name="Reverb_Sphere" ID="{4F5964DF-D97D-4056-9EF6-7B74CE6FCDED}">
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Ambience" ID="{0B45873D-5736-48B2-9593-E96800270058}" WorkUnitID="{D5B4C10A-5D90-4023-93DE-CBCFFD4DE735}"/>
+								</Reference>
+							</ReferenceList>
 							<ObjectLists>
 								<ObjectList Name="Effects">
 									<Reference>
