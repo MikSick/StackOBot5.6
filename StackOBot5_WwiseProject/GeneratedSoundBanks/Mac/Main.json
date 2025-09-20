@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{47CF1CD0-D3CB-4594-A01D-E1273BC12B13}",
     "Language": "SFX",
-    "Hash": "{9F5A9369-2644-4483-2169-A22FAF464F3B}",
+    "Hash": "{95C80CC6-DF11-442C-908B-5B3D34CC3F9E}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -85,7 +85,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps_Land_Stone_01.wav",
-      "CachePath": "C3/{C3FB0BBA-0B1B-4FA5-A6AA-3B115DC1E71B}.wem"
+      "CachePath": "F5/{F5BE2A26-4C94-2F55-DAAD-5C28150A2009}.wem"
      },
      {
       "Id": "295001224",
@@ -93,7 +93,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps_Stone_05.wav",
-      "CachePath": "56/{56F955C2-687A-1553-2DA0-CAF2E53F9A3F}.wem"
+      "CachePath": "DF/{DFF1FE20-1F55-A014-EC4B-854DAA70C8DB}.wem"
      },
      {
       "Id": "323955497",
@@ -125,7 +125,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps_Stone_01.wav",
-      "CachePath": "1C/{1C1BDCA4-AA10-3BFC-4F49-851D3B949030}.wem"
+      "CachePath": "19/{19D25850-A7F0-7F6F-42EB-FF47C67C633E}.wem"
      },
      {
       "Id": "549906345",
@@ -149,7 +149,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps_Stone_02.wav",
-      "CachePath": "DF/{DF03B2D1-D59B-6756-5902-D41FBE0FA5DD}.wem"
+      "CachePath": "1C/{1C9DD562-ED8A-2DCF-C9C3-2DF1AA7FEDE2}.wem"
      },
      {
       "Id": "570115450",
@@ -165,7 +165,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps_Stone_06.wav",
-      "CachePath": "55/{55EFDAD5-DBC9-07D5-B7F9-D600F3B65036}.wem"
+      "CachePath": "F3/{F3A83D51-6F96-0BDD-8411-7BDD11DCB940}.wem"
      },
      {
       "Id": "722292251",
@@ -173,7 +173,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps_Stone_04.wav",
-      "CachePath": "BC/{BCDD8FF6-B6E7-9A61-1326-755F670DC24F}.wem"
+      "CachePath": "C1/{C1115AC6-D9EA-793C-247A-C6DA9A5AF14E}.wem"
      },
      {
       "Id": "733507230",
@@ -181,7 +181,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps_Land_Stone_02.wav",
-      "CachePath": "00/{008C41F9-5E6B-106C-5843-04C5F8E972B2}.wem"
+      "CachePath": "62/{62A988CD-6086-C7F2-592B-305C9211AA74}.wem"
      },
      {
       "Id": "772873634",
@@ -205,7 +205,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps_Land_Stone_03.wav",
-      "CachePath": "92/{92D5E06A-CE09-EEDC-0649-DBDB1DC68E99}.wem"
+      "CachePath": "2A/{2A01B49E-BE06-2FFB-D800-5FDD43EDAA5E}.wem"
      },
      {
       "Id": "891019598",
@@ -213,7 +213,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps_Stone_03.wav",
-      "CachePath": "50/{501161A9-EC5B-4644-935F-F716BFFEC926}.wem"
+      "CachePath": "72/{728E8E77-AE03-EA44-E56C-CBFD2EA33E5F}.wem"
      },
      {
       "Id": "959317970",
@@ -531,6 +531,6 @@
     ]
    }
   ],
-  "FileHash": "{45ADD3D7-072C-2A1A-F861-48B7FE3D0A70}"
+  "FileHash": "{E7199D43-FB95-D2B2-8605-EE476CD70150}"
  }
 }
