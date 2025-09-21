@@ -1111,6 +1111,7 @@
 				<ActorMixer Name="Ambience" ID="{9AE31555-A20D-498C-A520-03E411656CB6}" ShortID="54839337">
 					<PropertyList>
 						<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
