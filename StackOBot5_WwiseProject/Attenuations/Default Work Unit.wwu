@@ -5,7 +5,7 @@
 			<ChildrenList>
 				<Attenuation Name="Ambience" ID="{0B45873D-5736-48B2-9593-E96800270058}" ShortID="553871684">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="11"/>
+						<Property Name="RadiusMax" Type="Real64" Value="46"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -21,18 +21,18 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>2.31509666666667</XPos>
-											<YPos>-8.21695</YPos>
+											<XPos>8.29024752475248</XPos>
+											<YPos>-2.85825</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>5.074905</XPos>
-											<YPos>-12.52104</YPos>
+											<XPos>19.7364184158416</XPos>
+											<YPos>-4.70828</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>11</XPos>
-											<YPos>-200</YPos>
+											<XPos>46</XPos>
+											<YPos>-5.55793</YPos>
 											<Flags>37</Flags>
 										</Point>
 									</PointList>
@@ -46,7 +46,30 @@
 							<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
 						</VolumeWetUserUsage>
 						<LowPassFilterUsage>
-							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+								<Curve Name="LowPassFilter" ID="{75F3802E-D158-4157-91D5-9FD386E25487}">
+									<PropertyList>
+										<Property Name="Flags" Type="int32" Value="65537"/>
+									</PropertyList>
+									<PointList>
+										<Point>
+											<XPos>0</XPos>
+											<YPos>0</YPos>
+											<Flags>5</Flags>
+										</Point>
+										<Point>
+											<XPos>18.4627988461538</XPos>
+											<YPos>35</YPos>
+											<Flags>0</Flags>
+										</Point>
+										<Point>
+											<XPos>46</XPos>
+											<YPos>42</YPos>
+											<Flags>37</Flags>
+										</Point>
+									</PointList>
+								</Curve>
+							</CurveUsageInfo>
 						</LowPassFilterUsage>
 						<HighPassFilterUsage>
 							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
@@ -76,7 +99,7 @@
 							<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
 						</OcclusionHPFUsage>
 						<DiffractionVolumeUsage>
-							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+							<CurveUsageInfo Platform="Linked" CurveToUse="UseProject">
 								<Curve Name="DiffractionVolume" ID="{5DD885E8-9E69-4FD3-872C-1BE137AF0F2E}">
 									<PropertyList>
 										<Property Name="Flags" Type="int32" Value="3"/>
@@ -102,7 +125,7 @@
 							</CurveUsageInfo>
 						</DiffractionVolumeUsage>
 						<DiffractionLPFUsage>
-							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+							<CurveUsageInfo Platform="Linked" CurveToUse="UseProject">
 								<Curve Name="DiffractionLPF" ID="{4C3E4A85-7DC3-40DA-A927-584533C67BF2}">
 									<PropertyList>
 										<Property Name="Flags" Type="int32" Value="65537"/>
@@ -131,7 +154,30 @@
 							<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
 						</DiffractionHPFUsage>
 						<TransmissionVolumeUsage>
-							<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+							<CurveUsageInfo Platform="Linked" CurveToUse="UseProject">
+								<Curve Name="TransmissionVolume" ID="{9B7E23EE-215C-425A-9FA9-26765E229735}">
+									<PropertyList>
+										<Property Name="Flags" Type="int32" Value="3"/>
+									</PropertyList>
+									<PointList>
+										<Point>
+											<XPos>0</XPos>
+											<YPos>0</YPos>
+											<Flags>5</Flags>
+										</Point>
+										<Point>
+											<XPos>20.57075</XPos>
+											<YPos>-6.8212</YPos>
+											<Flags>0</Flags>
+										</Point>
+										<Point>
+											<XPos>100</XPos>
+											<YPos>-200</YPos>
+											<Flags>37</Flags>
+										</Point>
+									</PointList>
+								</Curve>
+							</CurveUsageInfo>
 						</TransmissionVolumeUsage>
 						<TransmissionLPFUsage>
 							<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>

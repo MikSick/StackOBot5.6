@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{47CF1CD0-D3CB-4594-A01D-E1273BC12B13}",
     "Language": "SFX",
-    "Hash": "{019D4A4D-7B72-6854-A6C7-433D5EE931D7}",
+    "Hash": "{894AEBCE-F15F-B71E-A281-098C06858B44}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -294,6 +294,7 @@
       "Name": "Ambience",
       "ObjectPath": "\\Events\\Default Work Unit\\Ambience",
       "GUID": "{DEDCF5C7-FA66-41A2-8AD4-0F0208C351B4}",
+      "MaxAttenuation": "46",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -637,6 +638,6 @@
     ]
    }
   ],
-  "FileHash": "{7516EFDB-85EB-050C-2DB3-06C5BEDFF3DB}"
+  "FileHash": "{63AD8A54-B0FE-886A-6487-DAD4258A0094}"
  }
 }
