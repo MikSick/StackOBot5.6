@@ -1110,8 +1110,9 @@
 						</Sound>
 					</ChildrenList>
 				</ActorMixer>
-				<ActorMixer Name="Ambience" ID="{9AE31555-A20D-498C-A520-03E411656CB6}" ShortID="54839337">
+				<ActorMixer Name="Outdoor" ID="{9AE31555-A20D-498C-A520-03E411656CB6}" ShortID="54839337">
 					<PropertyList>
+						<Property Name="AttenuationDistanceScaling" Type="Real32" Value="2"/>
 						<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 					</PropertyList>
@@ -1130,6 +1131,7 @@
 						<Sound Name="Ambience_01" ID="{18A9946E-5BBF-4EB9-A68E-FC8004DEC949}" ShortID="802594275">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="AttenuationDistanceScaling" Type="Real32" Value="4"/>
 								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
