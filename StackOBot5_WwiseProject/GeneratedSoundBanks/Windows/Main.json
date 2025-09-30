@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{47CF1CD0-D3CB-4594-A01D-E1273BC12B13}",
     "Language": "SFX",
-    "Hash": "{0271575F-9CF6-CA7B-E2F0-2B2059E4B341}",
+    "Hash": "{83E5CA9D-8AE4-DA92-AE53-E1EB52EE37C8}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -53,7 +53,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Jetpack_On.wav",
-      "CachePath": "37/{37F3AD76-794E-6B61-0BFA-2F90B129CF49}.wem"
+      "CachePath": "D1/{D120E17E-D0E9-A3E3-C72E-23500035D9DF}.wem"
      },
      {
       "Id": "164502094",
@@ -294,7 +294,7 @@
       "Name": "Ambience",
       "ObjectPath": "\\Events\\Default Work Unit\\Ambience",
       "GUID": "{DEDCF5C7-FA66-41A2-8AD4-0F0208C351B4}",
-      "MaxAttenuation": "800",
+      "MaxAttenuation": "1600",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -638,6 +638,6 @@
     ]
    }
   ],
-  "FileHash": "{B3CF181F-CE2C-236B-733C-DF5281BF56A8}"
+  "FileHash": "{7CBD4A31-6B74-A8C4-174D-C4F073E870B9}"
  }
 }

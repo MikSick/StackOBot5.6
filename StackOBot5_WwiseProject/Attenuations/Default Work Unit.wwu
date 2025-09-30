@@ -5,7 +5,7 @@
 			<ChildrenList>
 				<Attenuation Name="Ambience" ID="{0B45873D-5736-48B2-9593-E96800270058}" ShortID="553871684">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="200"/>
+						<Property Name="RadiusMax" Type="Real64" Value="400"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -21,18 +21,23 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>80.57764</XPos>
+											<XPos>127.94292</XPos>
+											<YPos>-1.85744</YPos>
+											<Flags>0</Flags>
+										</Point>
+										<Point>
+											<XPos>161.15528</XPos>
 											<YPos>-2.31559</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>133.61075</XPos>
-											<YPos>-3.83032</YPos>
+											<XPos>266.74588</XPos>
+											<YPos>-4.15641</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>200</XPos>
-											<YPos>-5.55793</YPos>
+											<XPos>400</XPos>
+											<YPos>-5.33689</YPos>
 											<Flags>37</Flags>
 										</Point>
 									</PointList>
@@ -58,13 +63,13 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>165.1144</XPos>
-											<YPos>29</YPos>
+											<XPos>254.08308</XPos>
+											<YPos>26</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>200</XPos>
-											<YPos>34</YPos>
+											<XPos>400</XPos>
+											<YPos>38</YPos>
 											<Flags>37</Flags>
 										</Point>
 									</PointList>
@@ -180,7 +185,25 @@
 							</CurveUsageInfo>
 						</TransmissionVolumeUsage>
 						<TransmissionLPFUsage>
-							<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+							<CurveUsageInfo Platform="Linked" CurveToUse="UseProject">
+								<Curve Name="TransmissionLPF" ID="{27E08408-DC39-4BC2-901B-81C65D277EDA}">
+									<PropertyList>
+										<Property Name="Flags" Type="int32" Value="65537"/>
+									</PropertyList>
+									<PointList>
+										<Point>
+											<XPos>0</XPos>
+											<YPos>0</YPos>
+											<Flags>5</Flags>
+										</Point>
+										<Point>
+											<XPos>100</XPos>
+											<YPos>100</YPos>
+											<Flags>37</Flags>
+										</Point>
+									</PointList>
+								</Curve>
+							</CurveUsageInfo>
 						</TransmissionLPFUsage>
 						<TransmissionHPFUsage>
 							<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
