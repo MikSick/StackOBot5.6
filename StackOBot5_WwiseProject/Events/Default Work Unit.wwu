@@ -87,6 +87,38 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Spawn_Hologrem" ID="{72B7CBCC-4DEB-4F01-ACD8-1CB891425527}">
+					<ChildrenList>
+						<Action Name="" ID="{17F85973-BC3F-40E9-A263-3BDDF86BFF00}" ShortID="876809116">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeInCurve" Type="int16" Value="7"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="7"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Spawn_Hologram_01" ID="{F987980B-FDB0-4D9B-8FAF-DDD8DC3AEF1B}" WorkUnitID="{AF426861-089C-4C40-B560-09B3167DBB73}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Spawn_Hologrem_End" ID="{C444B41E-56B6-4797-904A-239409567642}">
+					<ChildrenList>
+						<Action Name="" ID="{86D69DCC-2D35-4823-A70D-B1B60AA9CF56}" ShortID="714646106">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="7"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Spawn_Hologram_01" ID="{F987980B-FDB0-4D9B-8FAF-DDD8DC3AEF1B}" WorkUnitID="{AF426861-089C-4C40-B560-09B3167DBB73}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

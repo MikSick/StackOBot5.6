@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{47CF1CD0-D3CB-4594-A01D-E1273BC12B13}",
     "Language": "SFX",
-    "Hash": "{83E5CA9D-8AE4-DA92-AE53-E1EB52EE37C8}",
+    "Hash": "{084F71D8-66FB-F489-D446-F27F60A6F4D3}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -53,7 +53,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Jetpack_On.wav",
-      "CachePath": "D1/{D120E17E-D0E9-A3E3-C72E-23500035D9DF}.wem"
+      "CachePath": "E3/{E3CCFDB5-CFAD-F8F1-1905-289EFF469350}.wem"
      },
      {
       "Id": "164502094",
@@ -198,6 +198,14 @@
       "Location": "Memory",
       "ShortName": "Footsteps_Land_Sand_02.wav",
       "CachePath": "78/{78C28E16-216D-4BA4-CB63-9E6049C3C0C9}.wem"
+     },
+     {
+      "Id": "690704498",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Spawn_Hologram_01.wav",
+      "CachePath": "43/{43CE53B7-824E-772B-5429-463196E60B93}.wem"
      },
      {
       "Id": "722292251",
@@ -600,6 +608,29 @@
         "Id": "989278900"
        }
       ]
+     },
+     {
+      "Id": "916314504",
+      "Name": "Spawn_Hologrem",
+      "ObjectPath": "\\Events\\Default Work Unit\\Spawn_Hologrem",
+      "GUID": "{72B7CBCC-4DEB-4F01-ACD8-1CB891425527}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "409117422",
+      "Name": "Spawn_Hologrem_End",
+      "ObjectPath": "\\Events\\Default Work Unit\\Spawn_Hologrem_End",
+      "GUID": "{C444B41E-56B6-4797-904A-239409567642}",
+      "MaxAttenuation": "2000",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "690704498"
+       }
+      ]
      }
     ],
     "SwitchGroups": [
@@ -638,6 +669,6 @@
     ]
    }
   ],
-  "FileHash": "{7CBD4A31-6B74-A8C4-174D-C4F073E870B9}"
+  "FileHash": "{AEC52582-6E7F-9D78-72B0-B92D256CD4E7}"
  }
 }

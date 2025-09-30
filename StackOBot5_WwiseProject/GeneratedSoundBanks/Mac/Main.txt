@@ -1,6 +1,8 @@
 Event	ID	Name			Wwise Object Path	Notes
 	71202558	Spawn			\Default Work Unit\Spawn	
 	85412153	Ambience			\Default Work Unit\Ambience	
+	409117422	Spawn_Hologrem_End			\Default Work Unit\Spawn_Hologrem_End	
+	916314504	Spawn_Hologrem			\Default Work Unit\Spawn_Hologrem	
 	2385628198	Footsteps			\Default Work Unit\Footsteps	
 	3199873489	Footsteps_Jump			\Default Work Unit\Footsteps_Jump	
 	3208028412	Jetpack_Start			\Default Work Unit\JetPack\Jetpack_Start	
@@ -21,7 +23,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	97202569	Footsteps_MetalSurface_03	E:\Unreal Projects\StackOBot5\StackOBot5_WwiseProject\.cache\45\{45852DA1-8D68-68B8-468C-939E760353A1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\Movement\Footsteps\Footsteps_MetalSurface\Footsteps_MetalSurface_03		21940
 	113102591	Footsteps_Jump_Stone_03	E:\Unreal Projects\StackOBot5\StackOBot5_WwiseProject\.cache\09\{09423111-1852-F1FC-9FB8-2603B7F1F089}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\Movement\Footsteps_Jump\Jump_Concrete\Footsteps_Jump_Stone_03		18798
 	126469380	Footsteps_Jump_Sand_01	E:\Unreal Projects\StackOBot5\StackOBot5_WwiseProject\.cache\0A\{0AD05699-7136-E518-13D8-C578888398C1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\Movement\Footsteps_Jump\Jump_Sand\Footsteps_Jump_Sand_01		23902
-	149819887	Jetpack_On	E:\Unreal Projects\StackOBot5\StackOBot5_WwiseProject\.cache\D1\{D120E17E-D0E9-A3E3-C72E-23500035D9DF}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\Jetpack\Jetpack_Start\Jetpack_On		31108
+	149819887	Jetpack_On	E:\Unreal Projects\StackOBot5\StackOBot5_WwiseProject\.cache\E3\{E3CCFDB5-CFAD-F8F1-1905-289EFF469350}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\Jetpack\Jetpack_Start\Jetpack_On		31108
 	164502094	Footsteps_MetalSurface_06	E:\Unreal Projects\StackOBot5\StackOBot5_WwiseProject\.cache\DE\{DE92538C-72F6-98AD-8A21-2773DF9A71AD}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\Movement\Footsteps\Footsteps_MetalSurface\Footsteps_MetalSurface_06		21644
 	166695707	Footsteps_MetalSurface_01	E:\Unreal Projects\StackOBot5\StackOBot5_WwiseProject\.cache\F6\{F6A3D0A1-9EF9-E453-FD94-0EBB2ACBBEEE}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\Movement\Footsteps\Footsteps_MetalSurface\Footsteps_MetalSurface_01		22364
 	201958901	Footsteps_MetalSurface_02	E:\Unreal Projects\StackOBot5\StackOBot5_WwiseProject\.cache\DF\{DF0ABB64-ACAD-DED0-3D7B-A92F88115CDF}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\Movement\Footsteps\Footsteps_MetalSurface\Footsteps_MetalSurface_02		23100
@@ -40,6 +42,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	570115450	Footsteps_Sand_01	E:\Unreal Projects\StackOBot5\StackOBot5_WwiseProject\.cache\E8\{E8588B67-0009-ADE1-C8D3-D22B11A299D0}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\Movement\Footsteps\Footsteps_Sand\Footsteps_Sand_01		22526
 	596299101	Footsteps_Stone_06	E:\Unreal Projects\StackOBot5\StackOBot5_WwiseProject\.cache\F3\{F3A83D51-6F96-0BDD-8411-7BDD11DCB940}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\Movement\Footsteps\Footsteps_Concrete\Footsteps_Stone_06		20108
 	668516065	Footsteps_Land_Sand_02	E:\Unreal Projects\StackOBot5\StackOBot5_WwiseProject\.cache\78\{78C28E16-216D-4BA4-CB63-9E6049C3C0C9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\Movement\Footstep_Land\Land_Sand\Footsteps_Land_Sand_02		29188
+	690704498	Spawn_Hologram_01	E:\Unreal Projects\StackOBot5\StackOBot5_WwiseProject\.cache\43\{43CE53B7-824E-772B-5429-463196E60B93}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\Spawn\Spawn_Hologram_01		779770
 	722292251	Footsteps_Stone_04	E:\Unreal Projects\StackOBot5\StackOBot5_WwiseProject\.cache\C1\{C1115AC6-D9EA-793C-247A-C6DA9A5AF14E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\Movement\Footsteps\Footsteps_Concrete\Footsteps_Stone_04		20144
 	733507230	Footsteps_Land_Stone_02	E:\Unreal Projects\StackOBot5\StackOBot5_WwiseProject\.cache\62\{62A988CD-6086-C7F2-592B-305C9211AA74}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\Movement\Footstep_Land\Land_Concrete\Footsteps_Land_Stone_02		27050
 	772873634	Footsteps_Sand_06	E:\Unreal Projects\StackOBot5\StackOBot5_WwiseProject\.cache\CF\{CFFBA6C1-C30D-E7E0-DD8E-CD33831C35DB}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\Movement\Footsteps\Footsteps_Sand\Footsteps_Sand_06		20226
@@ -47,7 +50,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	849242752	Footsteps_Land_Stone_03	E:\Unreal Projects\StackOBot5\StackOBot5_WwiseProject\.cache\2A\{2A01B49E-BE06-2FFB-D800-5FDD43EDAA5E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\Movement\Footstep_Land\Land_Concrete\Footsteps_Land_Stone_03		29718
 	891019598	Footsteps_Stone_03	E:\Unreal Projects\StackOBot5\StackOBot5_WwiseProject\.cache\72\{728E8E77-AE03-EA44-E56C-CBFD2EA33E5F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\Movement\Footsteps\Footsteps_Concrete\Footsteps_Stone_03		20352
 	959317970	Footsteps_Jump_Stone_02	E:\Unreal Projects\StackOBot5\StackOBot5_WwiseProject\.cache\8D\{8DA4CA44-F68B-2521-1F0E-8F192F722DF6}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\Movement\Footsteps_Jump\Jump_Concrete\Footsteps_Jump_Stone_02		21628
-	989278900	UI_Spawn	E:\Unreal Projects\StackOBot5\StackOBot5_WwiseProject\.cache\35\{35F914E9-719B-3D75-EDC3-1195D307A722}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\UI_Spawn		282328
+	989278900	UI_Spawn	E:\Unreal Projects\StackOBot5\StackOBot5_WwiseProject\.cache\35\{35F914E9-719B-3D75-EDC3-1195D307A722}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\Spawn\UI_Spawn		282328
 	1016837371	Footsteps_Land_Sand_01	E:\Unreal Projects\StackOBot5\StackOBot5_WwiseProject\.cache\B2\{B23E41E4-DB73-E988-8297-9FF12398A20E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\Movement\Footstep_Land\Land_Sand\Footsteps_Land_Sand_01		27672
 	1018035392	Footsteps_Jump_Sand_03	E:\Unreal Projects\StackOBot5\StackOBot5_WwiseProject\.cache\3B\{3B56518A-677E-34FF-A42C-F47C15C98E53}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\Movement\Footsteps_Jump\Jump_Sand\Footsteps_Jump_Sand_03		24528
 	1056558349	Footsteps_Land_Sand_03	E:\Unreal Projects\StackOBot5\StackOBot5_WwiseProject\.cache\D8\{D8671D81-1DA4-EA03-95F3-AF1567296D08}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sounds\Movement\Footstep_Land\Land_Sand\Footsteps_Land_Sand_03		30082
