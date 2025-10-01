@@ -1,19 +1,19 @@
 {
  "SoundBanksInfo": {
-  "Platform": "Windows",
-  "BasePlatform": "Windows",
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
   "SchemaVersion": "16",
   "SoundBankVersion": "154",
   "SoundBanks": [
    {
-    "Id": "2486699164",
+    "Id": "433874465",
     "Type": "Bus",
     "GUID": "{865A704D-7F89-42F6-9C2C-EF94F3544F5F}",
     "Language": "SFX",
-    "Hash": "{646A767F-C3E2-F6FF-C4B1-FFE5B9D41A2B}",
-    "ObjectPath": "Reverb_World",
-    "ShortName": "Reverb_World",
-    "Path": "Bus/Reverb_World.bnk",
+    "Hash": "{DFAB2BEC-3DFA-3646-128C-EAD2A7E45E18}",
+    "ObjectPath": "Room_World",
+    "ShortName": "Room_World",
+    "Path": "Bus/Room_World.bnk",
     "Plugins": {
      "ShareSets": [
       {
@@ -28,9 +28,9 @@
     },
     "AuxBusses": [
      {
-      "Id": "2486699164",
-      "Name": "Reverb_World",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb_World",
+      "Id": "433874465",
+      "Name": "Room_World",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Room_World",
       "GUID": "{865A704D-7F89-42F6-9C2C-EF94F3544F5F}",
       "PluginRefs": {
        "ShareSets": [
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{A3C29A78-7EBF-ACCC-1F89-64A756147EBA}"
+  "FileHash": "{C39BA14C-78C2-A882-9402-CF5E13ECD3D5}"
  }
 }

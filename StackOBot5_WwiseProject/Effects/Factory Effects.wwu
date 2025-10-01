@@ -1509,9 +1509,10 @@
 									<PropertyList>
 										<Property Name="DecayTime" Type="Real32" Value="0.2"/>
 										<Property Name="Density" Type="Real32" Value="53"/>
-										<Property Name="DryLevel" Type="Real32" Value="-4.3"/>
+										<Property Name="DryLevel" Type="Real32" Value="-26.3"/>
 										<Property Name="ERLevel" Type="Real32" Value="-33"/>
 										<Property Name="ERPattern" Type="int32" Value="29"/>
+										<Property Name="EnableEarlyReflections" Type="bool" Value="False"/>
 										<Property Name="Filter1Freq" Type="Real32" Value="210"/>
 										<Property Name="Filter1Gain" Type="Real32" Value="1.5"/>
 										<Property Name="Filter2Freq" Type="Real32" Value="6830"/>

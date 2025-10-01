@@ -1,19 +1,19 @@
 {
  "SoundBanksInfo": {
-  "Platform": "Mac",
-  "BasePlatform": "Mac",
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
   "SchemaVersion": "16",
   "SoundBankVersion": "154",
   "SoundBanks": [
    {
-    "Id": "2060699703",
+    "Id": "2893117992",
     "Type": "Bus",
     "GUID": "{4F5964DF-D97D-4056-9EF6-7B74CE6FCDED}",
     "Language": "SFX",
-    "Hash": "{36C533FA-7859-730F-D074-F832573B3FF5}",
-    "ObjectPath": "Reverb_Sphere",
-    "ShortName": "Reverb_Sphere",
-    "Path": "Bus/Reverb_Sphere.bnk",
+    "Hash": "{7402EF8E-5DE8-0BA1-60D9-5773346FFDF5}",
+    "ObjectPath": "Room_Sphere",
+    "ShortName": "Room_Sphere",
+    "Path": "Bus/Room_Sphere.bnk",
     "Plugins": {
      "ShareSets": [
       {
@@ -28,9 +28,9 @@
     },
     "AuxBusses": [
      {
-      "Id": "2060699703",
-      "Name": "Reverb_Sphere",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb_Sphere",
+      "Id": "2893117992",
+      "Name": "Room_Sphere",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Room_Sphere",
       "GUID": "{4F5964DF-D97D-4056-9EF6-7B74CE6FCDED}",
       "PluginRefs": {
        "ShareSets": [
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{CCB31B27-DFA1-9FDB-3DE8-553C6E1A9FD9}"
+  "FileHash": "{23CA4D3B-3790-903A-BCA8-78155D9380C9}"
  }
 }

@@ -10,15 +10,14 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AuxBus Name="Reverb_Sphere" ID="{4F5964DF-D97D-4056-9EF6-7B74CE6FCDED}">
+						<AuxBus Name="Room_Sphere" ID="{4F5964DF-D97D-4056-9EF6-7B74CE6FCDED}">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+								<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
 								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Attenuation">
-									<ObjectRef Name="Ambience" ID="{0B45873D-5736-48B2-9593-E96800270058}" WorkUnitID="{D5B4C10A-5D90-4023-93DE-CBCFFD4DE735}"/>
-								</Reference>
-							</ReferenceList>
+							<ReferenceList/>
 							<ObjectLists>
 								<ObjectList Name="Effects">
 									<Reference>
@@ -35,7 +34,13 @@
 								</ObjectList>
 							</ObjectLists>
 						</AuxBus>
-						<AuxBus Name="Reverb_World" ID="{865A704D-7F89-42F6-9C2C-EF94F3544F5F}">
+						<AuxBus Name="Room_World" ID="{865A704D-7F89-42F6-9C2C-EF94F3544F5F}">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+								<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
 							<ObjectLists>
 								<ObjectList Name="Effects">
 									<Reference>

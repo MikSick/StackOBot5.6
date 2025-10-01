@@ -18,8 +18,8 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
-	2060699703	Reverb_Sphere			\Default Work Unit\Master Audio Bus\Reverb_Sphere	
-	2486699164	Reverb_World			\Default Work Unit\Master Audio Bus\Reverb_World	
+	433874465	Room_World			\Default Work Unit\Master Audio Bus\Room_World	
+	2893117992	Room_Sphere			\Default Work Unit\Master Audio Bus\Room_Sphere	
 
 Effect plug-ins	ID	Name	Type				Notes
 	48620415	Have_U_Ever_Been_Outside	Wwise RoomVerb			

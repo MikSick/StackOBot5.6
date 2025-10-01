@@ -1,0 +1,47 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2780586317",
+    "Type": "Event",
+    "GUID": "{D3CF6ED6-A4C8-4DE4-8C4D-176AF3603CC5}",
+    "Language": "SFX",
+    "Hash": "{65974C7B-4FC8-BF89-5ABF-C2100AA372A8}",
+    "ObjectPath": "Woods",
+    "ShortName": "Woods",
+    "Path": "Event/Woods.bnk",
+    "Media": [
+     {
+      "Id": "489102263",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Wood_Movement_01.wav",
+      "Path": "Media/489102263.wem",
+      "CachePath": "8B/{8BD52251-95EA-509B-25FA-5414C589F0A6}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2780586317",
+      "Name": "Woods",
+      "ObjectPath": "\\Events\\Default Work Unit\\Woods",
+      "GUID": "{D3CF6ED6-A4C8-4DE4-8C4D-176AF3603CC5}",
+      "MaxAttenuation": "1400",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "489102263"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{5C864297-AA82-7D48-BA1F-830478892E5F}"
+ }
+}

@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{47CF1CD0-D3CB-4594-A01D-E1273BC12B13}",
     "Language": "SFX",
-    "Hash": "{084F71D8-66FB-F489-D446-F27F60A6F4D3}",
+    "Hash": "{14A4457E-DDCC-0B21-34B6-93903E079260}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -205,7 +205,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Spawn_Hologram_01.wav",
-      "CachePath": "43/{43CE53B7-824E-772B-5429-463196E60B93}.wem"
+      "CachePath": "A1/{A171F923-110F-84FB-C3E2-683847FF989E}.wem"
      },
      {
       "Id": "722292251",
@@ -302,7 +302,7 @@
       "Name": "Ambience",
       "ObjectPath": "\\Events\\Default Work Unit\\Ambience",
       "GUID": "{DEDCF5C7-FA66-41A2-8AD4-0F0208C351B4}",
-      "MaxAttenuation": "1600",
+      "MaxAttenuation": "800",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -614,16 +614,6 @@
       "Name": "Spawn_Hologrem",
       "ObjectPath": "\\Events\\Default Work Unit\\Spawn_Hologrem",
       "GUID": "{72B7CBCC-4DEB-4F01-ACD8-1CB891425527}",
-      "MaxAttenuation": "0",
-      "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
-     },
-     {
-      "Id": "409117422",
-      "Name": "Spawn_Hologrem_End",
-      "ObjectPath": "\\Events\\Default Work Unit\\Spawn_Hologrem_End",
-      "GUID": "{C444B41E-56B6-4797-904A-239409567642}",
       "MaxAttenuation": "2000",
       "DurationType": "Infinite",
       "MediaRefs": [
@@ -631,6 +621,16 @@
         "Id": "690704498"
        }
       ]
+     },
+     {
+      "Id": "409117422",
+      "Name": "Spawn_Hologrem_End",
+      "ObjectPath": "\\Events\\Default Work Unit\\Spawn_Hologrem_End",
+      "GUID": "{C444B41E-56B6-4797-904A-239409567642}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
      }
     ],
     "SwitchGroups": [
@@ -669,6 +669,6 @@
     ]
    }
   ],
-  "FileHash": "{C598D70A-CFB7-FE8A-87D8-37F45F68ACC0}"
+  "FileHash": "{C0C90796-5C90-CD19-2801-30B25FAF3640}"
  }
 }
