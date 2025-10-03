@@ -143,6 +143,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Coin_Take" ID="{BC66EDF2-DA21-48A5-BD82-35A0EC2E3AEA}">
+					<ChildrenList>
+						<Action Name="" ID="{98418B1F-0CD4-4832-A9E1-C919C7201081}" ShortID="971848570">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Coin" ID="{18F54145-A061-4119-AE9E-F2538DC9E9EA}" WorkUnitID="{AF426861-089C-4C40-B560-09B3167DBB73}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Platform" ID="{C016D6EE-320C-445B-ACFE-A5EB523236D0}">
+					<ChildrenList>
+						<Action Name="" ID="{22AD5C6E-EE31-48E5-A1BF-BCBF7E775C50}" ShortID="983446015">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Platform_Shake" ID="{293017EC-0443-420B-9EB2-3FC77267BC21}" WorkUnitID="{AF426861-089C-4C40-B560-09B3167DBB73}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

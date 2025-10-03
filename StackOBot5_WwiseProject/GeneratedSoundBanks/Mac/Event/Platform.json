@@ -1,0 +1,61 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "4035573696",
+    "Type": "Event",
+    "GUID": "{C016D6EE-320C-445B-ACFE-A5EB523236D0}",
+    "Language": "SFX",
+    "Hash": "{EF40186A-1B50-CB5C-6451-1596BF4197C4}",
+    "ObjectPath": "Platform",
+    "ShortName": "Platform",
+    "Path": "Event/Platform.bnk",
+    "Media": [
+     {
+      "Id": "743906054",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Platform_Shake_02.wav",
+      "Path": "Media/743906054.wem",
+      "CachePath": "89/{8933C959-1DF8-ABDA-2F47-C9BDD0404A16}.wem"
+     },
+     {
+      "Id": "912933541",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Platform_Shake_01.wav",
+      "Path": "Media/912933541.wem",
+      "CachePath": "0E/{0EC6705E-5F1E-3DC2-BB27-5A5B4C930DD1}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "4035573696",
+      "Name": "Platform",
+      "ObjectPath": "\\Events\\Default Work Unit\\Platform",
+      "GUID": "{C016D6EE-320C-445B-ACFE-A5EB523236D0}",
+      "MaxAttenuation": "1005",
+      "DurationType": "OneShot",
+      "DurationMin": "1.8584791",
+      "DurationMax": "1.9129584",
+      "MediaRefs": [
+       {
+        "Id": "743906054"
+       },
+       {
+        "Id": "912933541"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{196B0D25-75E1-917C-3060-697D8C7033DF}"
+ }
+}

@@ -10,7 +10,7 @@
     "Type": "Bus",
     "GUID": "{4F5964DF-D97D-4056-9EF6-7B74CE6FCDED}",
     "Language": "SFX",
-    "Hash": "{7402EF8E-5DE8-0BA1-60D9-5773346FFDF5}",
+    "Hash": "{550D5935-95BE-C875-44DA-C59717EFE642}",
     "ObjectPath": "Room_Sphere",
     "ShortName": "Room_Sphere",
     "Path": "Bus/Room_Sphere.bnk",
@@ -32,6 +32,7 @@
       "Name": "Room_Sphere",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Room_Sphere",
       "GUID": "{4F5964DF-D97D-4056-9EF6-7B74CE6FCDED}",
+      "MaxAttenuation": "200",
       "PluginRefs": {
        "ShareSets": [
         {
@@ -43,6 +44,6 @@
     ]
    }
   ],
-  "FileHash": "{23CA4D3B-3790-903A-BCA8-78155D9380C9}"
+  "FileHash": "{018149BE-295C-5563-BAF9-553296128568}"
  }
 }

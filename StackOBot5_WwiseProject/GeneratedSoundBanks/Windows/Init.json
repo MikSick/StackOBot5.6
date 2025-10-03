@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{FB166CF2-0642-8BB1-4BA7-ECD0723FDBF1}",
+    "Hash": "{461AAEE8-9869-4A32-920E-AB114D3E1162}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -94,6 +94,7 @@
       "Name": "Room_Sphere",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Room_Sphere",
       "GUID": "{4F5964DF-D97D-4056-9EF6-7B74CE6FCDED}",
+      "MaxAttenuation": "200",
       "PluginRefs": {
        "ShareSets": [
         {
@@ -616,6 +617,6 @@
     ]
    }
   ],
-  "FileHash": "{23EAF368-5444-EAA2-1FA6-6D597CED3EEE}"
+  "FileHash": "{91A29EA0-2FA4-6CCE-D183-FA0E5FFB40A0}"
  }
 }
