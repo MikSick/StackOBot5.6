@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{47CF1CD0-D3CB-4594-A01D-E1273BC12B13}",
     "Language": "SFX",
-    "Hash": "{14A4457E-DDCC-0B21-34B6-93903E079260}",
+    "Hash": "{E905C6BA-670C-8DA3-C27C-D3F48AD6C0C3}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -104,6 +104,14 @@
       "CachePath": "F5/{F5BE2A26-4C94-2F55-DAAD-5C28150A2009}.wem"
      },
      {
+      "Id": "284593133",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ui_Coin_06.wav",
+      "CachePath": "A1/{A14A2513-34C6-4F3B-D013-1F26D10D66DD}.wem"
+     },
+     {
       "Id": "295001224",
       "Language": "SFX",
       "Streaming": "false",
@@ -120,6 +128,14 @@
       "CachePath": "4E/{4E2825F4-4FBD-F061-9DF6-B810F806A4C9}.wem"
      },
      {
+      "Id": "341825778",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ui_Coin_01.wav",
+      "CachePath": "E9/{E971020E-57B8-3B62-B611-DF7FCB1B34B0}.wem"
+     },
+     {
       "Id": "345613385",
       "Language": "SFX",
       "Streaming": "false",
@@ -128,12 +144,36 @@
       "CachePath": "42/{4298D300-FC77-C13D-8B6B-B32376E988E4}.wem"
      },
      {
+      "Id": "364561384",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ui_Coin_05.wav",
+      "CachePath": "D5/{D5F8360B-456E-7130-347D-23F1DA8CAB44}.wem"
+     },
+     {
       "Id": "368629434",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Ambience_01.wav",
       "CachePath": "32/{326847BE-1172-316A-8F4F-0BC030579B38}.wem"
+     },
+     {
+      "Id": "400763522",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ui_Coin_04.wav",
+      "CachePath": "22/{22E6AD35-668B-F107-3754-3C0E96F58470}.wem"
+     },
+     {
+      "Id": "402938014",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ui_Coin_07.wav",
+      "CachePath": "DE/{DE63BDBB-FD9F-A58C-8D89-3C924E06ED47}.wem"
      },
      {
       "Id": "502576203",
@@ -150,6 +190,14 @@
       "Location": "Memory",
       "ShortName": "Footsteps_Stone_01.wav",
       "CachePath": "19/{19D25850-A7F0-7F6F-42EB-FF47C67C633E}.wem"
+     },
+     {
+      "Id": "528258869",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ui_Coin_02.wav",
+      "CachePath": "EE/{EEFDD93B-0FCF-5611-8C12-84E46F9D0B95}.wem"
      },
      {
       "Id": "549906345",
@@ -232,6 +280,14 @@
       "CachePath": "CF/{CFFBA6C1-C30D-E7E0-DD8E-CD33831C35DB}.wem"
      },
      {
+      "Id": "792941054",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ui_Coin_03.wav",
+      "CachePath": "A0/{A06D98FB-9DAF-08FE-0BA9-5540BE638EA9}.wem"
+     },
+     {
       "Id": "826866812",
       "Language": "SFX",
       "Streaming": "false",
@@ -307,6 +363,38 @@
       "MediaRefs": [
        {
         "Id": "368629434"
+       }
+      ]
+     },
+     {
+      "Id": "1211731340",
+      "Name": "Coin_Take",
+      "ObjectPath": "\\Events\\Default Work Unit\\Coin_Take",
+      "GUID": "{BC66EDF2-DA21-48A5-BD82-35A0EC2E3AEA}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.2285",
+      "DurationMax": "1.5581459",
+      "MediaRefs": [
+       {
+        "Id": "284593133"
+       },
+       {
+        "Id": "341825778"
+       },
+       {
+        "Id": "364561384"
+       },
+       {
+        "Id": "400763522"
+       },
+       {
+        "Id": "402938014"
+       },
+       {
+        "Id": "528258869"
+       },
+       {
+        "Id": "792941054"
        }
       ]
      },
@@ -669,6 +757,6 @@
     ]
    }
   ],
-  "FileHash": "{BEB51115-4B0E-788D-B0EC-D27B58A9994F}"
+  "FileHash": "{7A6CD690-ABB8-F9A4-21FC-954F92719369}"
  }
 }

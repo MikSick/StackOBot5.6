@@ -1,6 +1,8 @@
 # Visual Studio 2015 user specific files
 .vs/
-
+ 
+# DDC Folder 
+Ddc/
 # Compiled Object files
 *.slo
 *.lo

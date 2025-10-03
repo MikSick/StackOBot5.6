@@ -331,7 +331,7 @@
 				</Attenuation>
 				<Attenuation Name="Woods" ID="{DBBE8389-BA58-435B-A7A7-A1883739D261}" ShortID="443888458">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="1400"/>
+						<Property Name="RadiusMax" Type="Real64" Value="1005"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -347,13 +347,13 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>300.69129</XPos>
-											<YPos>-3.34456</YPos>
+											<XPos>298.3088</XPos>
+											<YPos>-4.64338</YPos>
 											<Flags>0</Flags>
 											<SegmentShape>Log1</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>1400</XPos>
+											<XPos>1005</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -380,12 +380,12 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>288.389668</XPos>
+											<XPos>207.0225831</XPos>
 											<YPos>0</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>1400</XPos>
+											<XPos>1005</XPos>
 											<YPos>56</YPos>
 											<Flags>37</Flags>
 										</Point>
