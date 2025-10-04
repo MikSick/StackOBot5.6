@@ -1,0 +1,49 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2574808450",
+    "Type": "Event",
+    "GUID": "{E7992187-1755-40FD-9034-ECB0B2D497CB}",
+    "Language": "SFX",
+    "Hash": "{2E7CC72E-2354-82D2-D28F-589B3D244E26}",
+    "ObjectPath": "Open_Coins",
+    "ShortName": "Open_Coins",
+    "Path": "Event/Open_Coins.bnk",
+    "Media": [
+     {
+      "Id": "886724904",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Open_Coins.wav",
+      "Path": "Media/886724904.wem",
+      "CachePath": "35/{35E4856C-8D1C-37B8-2D5A-F06BACB54675}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2574808450",
+      "Name": "Open_Coins",
+      "ObjectPath": "\\Events\\Default Work Unit\\Open_Coins",
+      "GUID": "{E7992187-1755-40FD-9034-ECB0B2D497CB}",
+      "MaxAttenuation": "500",
+      "DurationType": "OneShot",
+      "DurationMin": "2.5254166",
+      "DurationMax": "2.5254166",
+      "MediaRefs": [
+       {
+        "Id": "886724904"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{ADAF825D-0E55-5DF0-789D-17093DD41106}"
+ }
+}

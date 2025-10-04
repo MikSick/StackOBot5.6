@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{C016D6EE-320C-445B-ACFE-A5EB523236D0}",
     "Language": "SFX",
-    "Hash": "{EF40186A-1B50-CB5C-6451-1596BF4197C4}",
+    "Hash": "{7EEE53B6-78DC-0F6A-2899-6C11D5A6A923}",
     "ObjectPath": "Platform",
     "ShortName": "Platform",
     "Path": "Event/Platform.bnk",
@@ -22,7 +22,7 @@
       "Location": "Loose",
       "ShortName": "Platform_Shake_02.wav",
       "Path": "Media/743906054.wem",
-      "CachePath": "89/{8933C959-1DF8-ABDA-2F47-C9BDD0404A16}.wem"
+      "CachePath": "AC/{AC8E66BD-F71C-F85C-D555-2F296F88C32F}.wem"
      },
      {
       "Id": "912933541",
@@ -31,7 +31,7 @@
       "Location": "Loose",
       "ShortName": "Platform_Shake_01.wav",
       "Path": "Media/912933541.wem",
-      "CachePath": "0E/{0EC6705E-5F1E-3DC2-BB27-5A5B4C930DD1}.wem"
+      "CachePath": "A7/{A724A48F-6C5E-35F9-8529-B63EE07EA491}.wem"
      }
     ],
     "Events": [
@@ -42,8 +42,8 @@
       "GUID": "{C016D6EE-320C-445B-ACFE-A5EB523236D0}",
       "MaxAttenuation": "1005",
       "DurationType": "OneShot",
-      "DurationMin": "1.8584791",
-      "DurationMax": "1.9129584",
+      "DurationMin": "0.743956",
+      "DurationMax": "0.8847278",
       "MediaRefs": [
        {
         "Id": "743906054"
@@ -56,6 +56,6 @@
     ]
    }
   ],
-  "FileHash": "{7F9482A9-65CA-31AB-370D-5E73DFBC33B3}"
+  "FileHash": "{590DDD64-3266-8888-812E-09E38021FF30}"
  }
 }

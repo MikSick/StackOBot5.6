@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{47CF1CD0-D3CB-4594-A01D-E1273BC12B13}",
     "Language": "SFX",
-    "Hash": "{36A72D6F-D6FA-970C-3C52-2FBEAB2D2D88}",
+    "Hash": "{F2DF5D43-1B4C-3EDD-11BA-C8F5D8A6F4CC}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -248,12 +248,20 @@
       "CachePath": "78/{78C28E16-216D-4BA4-CB63-9E6049C3C0C9}.wem"
      },
      {
+      "Id": "681537427",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Spawn_Hologram_00.wav",
+      "CachePath": "F7/{F72106B7-CAFD-688B-C344-FFD422AC3FEE}.wem"
+     },
+     {
       "Id": "690704498",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Spawn_Hologram_01.wav",
-      "CachePath": "A1/{A171F923-110F-84FB-C3E2-683847FF989E}.wem"
+      "CachePath": "32/{32E33F3E-1D54-1336-C56C-940926B8907C}.wem"
      },
      {
       "Id": "722292251",
@@ -702,9 +710,11 @@
       "Name": "Spawn_Hologrem",
       "ObjectPath": "\\Events\\Default Work Unit\\Spawn_Hologrem",
       "GUID": "{72B7CBCC-4DEB-4F01-ACD8-1CB891425527}",
-      "MaxAttenuation": "2000",
       "DurationType": "Infinite",
       "MediaRefs": [
+       {
+        "Id": "681537427"
+       },
        {
         "Id": "690704498"
        }
@@ -757,6 +767,6 @@
     ]
    }
   ],
-  "FileHash": "{193310B5-D2AF-1AA9-980D-14DCAFFACD4F}"
+  "FileHash": "{3B3C359C-5B26-B339-C89F-5AFC14A997B3}"
  }
 }

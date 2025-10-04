@@ -98,7 +98,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Spawn_Hologram_01" ID="{F987980B-FDB0-4D9B-8FAF-DDD8DC3AEF1B}" WorkUnitID="{AF426861-089C-4C40-B560-09B3167DBB73}"/>
+									<ObjectRef Name="Hologram" ID="{75C65D0E-1C50-4213-8328-06D2F6A45E23}" WorkUnitID="{AF426861-089C-4C40-B560-09B3167DBB73}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -110,7 +110,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Spawn_Hologram_01" ID="{F987980B-FDB0-4D9B-8FAF-DDD8DC3AEF1B}" WorkUnitID="{AF426861-089C-4C40-B560-09B3167DBB73}"/>
+									<ObjectRef Name="Hologram" ID="{75C65D0E-1C50-4213-8328-06D2F6A45E23}" WorkUnitID="{AF426861-089C-4C40-B560-09B3167DBB73}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -160,6 +160,27 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Platform_Shake" ID="{293017EC-0443-420B-9EB2-3FC77267BC21}" WorkUnitID="{AF426861-089C-4C40-B560-09B3167DBB73}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Open_Coins" ID="{E7992187-1755-40FD-9034-ECB0B2D497CB}">
+					<ChildrenList>
+						<Action Name="" ID="{50E8923A-D717-4D25-9F6B-BCD9B97CA4B3}" ShortID="868347562">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Open_Coins" ID="{5050A1BA-E6D2-425D-8C1C-653980F609A2}" WorkUnitID="{AF426861-089C-4C40-B560-09B3167DBB73}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{85DF4B42-C3A9-4FBB-8266-A4E73B32B4BC}" ShortID="1056460731">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Open_Coins" ID="{5050A1BA-E6D2-425D-8C1C-653980F609A2}" WorkUnitID="{AF426861-089C-4C40-B560-09B3167DBB73}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
